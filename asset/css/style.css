@@ -37,7 +37,7 @@ nav {
     content: "";
     position: absolute;
     height: 1px;
-    background: #fff;
+    background: black;
     bottom: 0;
     width: 0%;
     -webkit-transition: .2s width ease-in-out;
@@ -46,7 +46,7 @@ nav {
 }
 
 .site-nav-ul>li>a:hover {
-    color: #fff;
+    color: black;
 }
 
 .site-nav-ul>li>a:hover:before {
@@ -588,3 +588,47 @@ h1,h2,h3{
  height: 70vh;
     width: 100%;
 }
+/* contact */
+
+.contact-content h1 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  text-shadow: 2px 2px #333;
+}
+.contact-content p {
+    background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+}
+.contact-form-left { padding-left: 0; }
+.contact-form-right { padding-right: 0; }
+input {
+    margin-bottom: 15px;    
+}
+.form-control {
+  border: none;
+  background: rgba(230, 229, 229, 0.4);
+}
+
+.form-group button {
+  background: #262628 none repeat scroll 0 0;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius:10px;
+  -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+}
+section#contact-area {
+    background-image: url("../images/room_2_a.jpg");
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+  }
+
+   
